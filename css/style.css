@@ -230,25 +230,29 @@ p {
   position: fixed;
   top: 10px;
   left: 1%;
-  background: lightblue;
-  color: black;
+  background: #1976d2;
+  color: #fff;
   padding: 15px 40px;
   border-radius: 8px;
   text-decoration: none;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
-  transition: background 0.2s;
+  box-shadow: 0 2px 8px rgba(25, 118, 210, 0.15);
+  transition: background 0.2s, box-shadow 0.2s;
   z-index: 9999;
 
   opacity: 0;
   pointer-events: none;
+  border: none;
+  font-weight: 500;
 }
 
 .skip_flutuante:focus,
 .skip_flutuante:focus-visible {
   opacity: 1;
   pointer-events: auto;
+  background: #1565c0;
+  box-shadow: 0 4px 12px rgba(25, 118, 210, 0.25);
+  color: #fff;
 }
-
 
 .add-to-cart {
   background: #1976d2;
