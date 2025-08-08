@@ -23,7 +23,7 @@ header {
   align-items: stretch;
   position: relative;
   height: 160px;
-  background: lightgray;
+  background: rgba(211, 211, 211, 1);
 }
 
 .header-one {
@@ -231,7 +231,7 @@ p {
   position: fixed;
   top: 10px;
   left: 1%;
-  background: rgba(19, 84, 150, 1);
+  background: rgba(8, 46, 84, 1);
   color: rgba(255, 255, 255, 1);
   padding: 15px 40px;
   border-radius: 8px;
@@ -239,7 +239,7 @@ p {
   box-shadow: 0 2px 8px rgba(25, 118, 210, 0.15);
   transition: background 0.2s, box-shadow 0.2s;
   z-index: 9999;
-
+  font-size: 16px;
   opacity: 0;
   pointer-events: none;
   border: none;
@@ -250,7 +250,7 @@ p {
 .skip_flutuante:focus-visible {
   opacity: 1;
   pointer-events: auto;
-  background: #125291;
+  background: rgba(18, 82, 145, 1);
   box-shadow: 0 4px 12px rgba(25, 118, 210, 0.25);
   color: rgba(255, 255, 255, 1);
 }
@@ -276,15 +276,15 @@ p {
 
 .add-to-cart:focus,
 .add-to-cart:active {
-  background: #125291;
+  background: rgba(18, 82, 145, 1);
   box-shadow: 0 4px 12px rgba(25, 118, 210, 0.25);
   transform: scale(0.97);
   color: rgba(255, 255, 255, 1);
 }
 
 .add-to-cart:disabled {
-  background: #b0bec5;
-  color: #ececec;
+  background: rgba(176, 190, 197, 1);
+  color: rgba(236, 236, 236, 1);
   cursor: not-allowed;
   box-shadow: none;
 }
