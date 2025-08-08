@@ -64,7 +64,7 @@ nav a {
   text-decoration: none;
   color: #fff;
   font-weight: 500;
-  background: #1976d2; 
+  background: #135496; 
   padding: 10px 28px;
   border: none;
   border-radius: 4px;
@@ -81,7 +81,7 @@ nav a {
 
 nav a:focus,
 nav a:active {
-  background: #1565c0;
+  background: #125291;
   box-shadow: 0 4px 12px rgba(25, 118, 210, 0.25); 
   transform: scale(0.97);
   color: #fff;
@@ -89,8 +89,8 @@ nav a:active {
 
 nav a.current {
   background: #fff;
-  color: #1976d2; 
-  border: 2px solid #1976d2; 
+  color: #135496; 
+  border: 2px solid #135496; 
   font-weight: 700;
   box-shadow: 0 4px 16px rgba(25, 118, 210, 0.1); 
   pointer-events: none;
@@ -174,7 +174,7 @@ footer p {
 .card:focus-within {
   transform: scale(1.04);
   border-width: 3px;
-  border-color: #1976d2;
+  border-color: #135496;
   box-shadow: 0 8px 32px rgba(25, 118, 210, 0.18);
   z-index: 10;
 }
@@ -217,7 +217,7 @@ footer p {
 .flex-image-gallery img:focus {
   transform: scale(1.12);
   border-width: 4px;
-  border-color: #1976d2;
+  border-color: #135496;
   box-shadow: 0 8px 32px rgba(25, 118, 210, 0.18);
   z-index: 10;
 }
@@ -230,7 +230,7 @@ p {
   position: fixed;
   top: 10px;
   left: 1%;
-  background: #1976d2;
+  background: #135496;
   color: #fff;
   padding: 15px 40px;
   border-radius: 8px;
@@ -249,13 +249,13 @@ p {
 .skip_flutuante:focus-visible {
   opacity: 1;
   pointer-events: auto;
-  background: #1565c0;
+  background: #125291;
   box-shadow: 0 4px 12px rgba(25, 118, 210, 0.25);
   color: #fff;
 }
 
 .add-to-cart {
-  background: #1976d2;
+  background: #135496;
   color: #fff;
   font-weight: 600;
   font-size: 16px;
@@ -275,7 +275,7 @@ p {
 
 .add-to-cart:focus,
 .add-to-cart:active {
-  background: #1565c0;
+  background: #125291;
   box-shadow: 0 4px 12px rgba(25, 118, 210, 0.25);
   transform: scale(0.97);
   color: #fff;
